@@ -1,3 +1,0 @@
-Root: E:\备份的项目包\blog-netlify-v1\mdfriday-site
-Files with missing refs: 105
-Missing refs total: 3845

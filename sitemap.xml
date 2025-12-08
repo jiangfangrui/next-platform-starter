@@ -22,6 +22,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>/tags/一人公司/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>/tags/企业微信/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -99,6 +103,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>/posts/003-markdown-syntax.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>/projects/003-books.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
