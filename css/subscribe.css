@@ -1,0 +1,87 @@
+/* 表单容器样式 */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subscribe {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 30px 0;
+}
+
+/* 标题样式 */
+.subscribe h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 15px !important;
+  text-align: left;
+}
+
+/* 描述文本样式 */
+.subscribe p {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* 表单样式 */
+.subscribe .form-group {
+  margin-bottom: 20px;
+}
+
+.subscribe label {
+  display: block;
+  font-size: 0.9rem;
+  color: #333333;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.subscribe .form-control {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.subscribe .form-control:focus {
+  border-color: #ff6b6b;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
+
+/* 按钮样式 */
+.subscribe .btn-primary {
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.subscribe .btn-primary:hover {
+  background-color: #ff5252;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .subscribe {
+    padding: 30px 20px;
+  }
+  
+  .subscribe h1 {
+    font-size: 1.5rem;
+  }
+}
